@@ -1,1 +1,7 @@
 # code_agent
+
+`uv run main.py "<user_prompt>" [--verbose]`
+
+Currently a basic chatbot that takes a string prompt and option verbose flag and returns a response. The verbose flag adds the user prompt, prompt token count, and reponse token count to the output.
+
+If you want to use this chatbot, add a `.env` file with your own Gemini API key like `GEMINI_API_KEY==<your_api_key>`

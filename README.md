@@ -1,6 +1,6 @@
 # code_agent
 
-`uv run main.py "<user_prompt>" [--verbose]`
+usage: `main.py [-h] [--verbose] user_prompt` where user_prompt is a string.
 
 Currently a basic chatbot that takes a string prompt and option verbose flag and returns a response. The verbose flag adds the user prompt, prompt token count, and reponse token count to the output.
 

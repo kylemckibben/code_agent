@@ -22,7 +22,7 @@ def get_files_info(working_directory, directory="."):
         target_dir = os.path.normpath(os.path.join(abs_working_dir, directory))
         valid_working_dir = os.path.commonpath([abs_working_dir, target_dir]) == abs_working_dir
 
-        print(f'Results for {"current" if directory == "." else f"'{directory}'"} directory:')
+        # print(f'Results for {"current" if directory == "." else f"'{directory}'"} directory:')
 
         if not valid_working_dir:
             return f'\tError: Cannot list "{directory}" as it is outside the permitted working directory'

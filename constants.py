@@ -1,2 +1,3 @@
 CHAR_READ_MAX = 10000
-MODEL="gemini-2.5-flash"
+MODEL = "gemini-2.5-flash"
+CONVERSATION_LIMIT = 20
